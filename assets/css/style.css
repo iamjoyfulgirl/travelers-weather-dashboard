@@ -3,6 +3,11 @@ ion-icon {
   --ionicon-stroke-width: 80px;
 }
 
+/* jumbotron background image */
+h1 {
+  background-image: url(../images/cloud\ banner.jpg);
+}
+
 .green {
   background-color: green;
 }
