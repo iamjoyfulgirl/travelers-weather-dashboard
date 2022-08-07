@@ -16,6 +16,10 @@ p,
   font-weight: bold;
 }
 
+#listC {
+  background-color: lightgrey;
+}
+
 h6 {
   padding-top: 5px;
   font-family: "Poppins", sans-serif;

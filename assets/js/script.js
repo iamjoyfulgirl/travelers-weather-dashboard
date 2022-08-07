@@ -99,8 +99,8 @@ function getResponseWeather(cityName) {
         // Create a new table row element
         cityTitle = $("<h3>").text(response.name + " " + FormatDay());
         $("#today-weather").append(cityTitle);
-        var TempetureToNum = parseInt((response.main.temp) * 9 / 5 - 459);
-        var cityTemperature = $("<p>").text("Tempeture: " + TempetureToNum + " °F");
+        var TemperatureToNum = parseInt((response.main.temp) * 9 / 5 - 459);
+        var cityTemperature = $("<p>").text("Temperature: " + TemperatureToNum + " °F");
         $("#today-weather").append(cityTemperature);
         var cityHumidity = $("<p>").text("Humidity: " + response.main.humidity + " %");
         $("#today-weather").append(cityHumidity);
@@ -173,8 +173,8 @@ function getResponseWeather(cityName) {
 
                     var pTemperatureK = response5day.list[i].main.temp;
                     console.log(skyconditions);
-                    var TempetureToNum = parseInt((pTemperatureK) * 9 / 5 - 459);
-                    var pTemperature = $("<p>").text("Tempeture: " + TempetureToNum + " °F");
+                    var TemperatureToNum = parseInt((pTemperatureK) * 9 / 5 - 459);
+                    var pTemperature = $("<p>").text("Temperature: " + TemperatureToNum + " °F");
                     var pHumidity = $("<p>").text("Humidity: " + response5day.list[i].main.humidity + " %");
                     FivedayDiv.append(Fivedayh4);
                     FivedayDiv.append(imgtag);
