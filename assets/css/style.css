@@ -5,11 +5,25 @@ ion-icon {
 
 /* jumbotron background image */
 h1 {
+  font-family: "Splash", cursive;
   background-image: url(../images/cloud\ banner.jpg);
+}
+
+h3,
+p,
+#listC {
+  font-family: "Gruppo", cursive;
+  font-weight: bold;
+}
+
+h6 {
+  padding-top: 5px;
+  font-family: "Poppins", sans-serif;
 }
 
 .green {
   background-color: green;
+  color: white;
 }
 .yellow {
   background-color: yellow;
@@ -19,8 +33,10 @@ h1 {
 }
 .red {
   background-color: red;
+  color: white;
 }
 
 .purple {
   background-color: purple;
+  color: white;
 }
