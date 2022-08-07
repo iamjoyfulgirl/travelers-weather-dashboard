@@ -2,7 +2,7 @@
 
 ## Websites
 
-- Deployed app [Traveler's Weather Dashboard](https://iamjoyfulgirl.github.io/) 🔗 TODO
+- Deployed app [Traveler's Weather Dashboard](https://iamjoyfulgirl.github.io/travelers-weather-dashboard/)
 - [GitHub Repository](https://github.com/iamjoyfulgirl/travelers-weather-dashboard)
 
 ## Description of the Traveler's Weather Dashboard
@@ -28,7 +28,7 @@ The current day's weather is displayed in it's own section and includes temperat
 
 ## Link to the Traveler's Weather Dashboard
 
-[Traveler's Weather Dashboard Demo Video](https://drive.google.com/file/d/1CdI-fiPRbA8uXu0kY2PMYXXJ20fMXMp0/view) 🔗
+[Traveler's Weather Dashboard Demo Video](https://drive.google.com/file/d/1CdI-fiPRbA8uXu0kY2PMYXXJ20fMXMp0/view)
 
 ## Acceptance Criteria
 
