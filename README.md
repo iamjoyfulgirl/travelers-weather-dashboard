@@ -1,21 +1,34 @@
 # Module 6 - Traveler's Weather Dashboard
-## Websites:
-* Deployed app: [Traveler's Weather Dashboard](https://iamjoyfulgirl.github.io//) 🔗 TODO
-* [GitHub Repository](https://github.com/iamjoyfulgirl/travelers-weather-dashboard)
-## Description: 
-TODO
 
-## Application Functionality:
-TODO 
+## Websites
 
-## Features
-* HTML
-* CSS
-* TODO
+- Deployed app [Traveler's Weather Dashboard](https://iamjoyfulgirl.github.io/) 🔗 TODO
+- [GitHub Repository](https://github.com/iamjoyfulgirl/travelers-weather-dashboard)
 
-[**Demo video**](https://drive.google.com/file/) 🔗 TODO
-SCREENSHOT TODO
+## Description of the Traveler's Weather Dashboard
 
+This front-end application allows a user to look up multiple locations' 5-day forecasts to plan their trip accordingly. This is accomplished using the OpenWeather API and saving the user's location search data to local storage.
+
+![Screenshot of app](assets/images/travelers-weather-dashboard-with-storage.png)
+
+## Application Functionality
+
+The user enters a city name into the search field and clicks the search button. The city name is passed into the OpenWeather API, which returns the current weather and the next four days' weather into the future.
+
+The current day's weather is displayed in it's own section and includes temperature, humidity, wind spedd and UV index. Additionally, each day's weather is shown on a blue card with date, weather condition-related icon, temperature, and humidity.
+
+## Technologies Used
+
+- HTML
+- Bootstrap CSS framework
+- IonIcon for search button icon
+- CSS
+- JQuery
+- [OpenWeather One Call API](https://openweathermap.org/api/one-call-api)
+
+## Link to the Traveler's Weather Dashboard
+
+[Traveler's Weather Dashboard Demo Video](https://drive.google.com/file/d/1CdI-fiPRbA8uXu0kY2PMYXXJ20fMXMp0/view) 🔗
 
 ## Acceptance Criteria
 
